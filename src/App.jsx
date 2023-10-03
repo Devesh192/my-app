@@ -18,6 +18,7 @@ import {
 } from "react-router-dom";
 import About from './component/about';
 import Sidebar from './component/sidebar';
+import Contact from './component/contact';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/resume" element={<Resume />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>
           <div className='justify-end'>

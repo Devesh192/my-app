@@ -1,5 +1,6 @@
 import React from "react";
 import a from "../asset/a.png";
+import b from "../asset/b.png";
 import styles from "../styles";
 import design from "../asset/design.png";
 import Header from "./navbar";
@@ -32,21 +33,18 @@ const Home = () => {
           >
             <h1>Coding Maestro Sculpting Solutions for Tomorrow's Challenges</h1>
           </div>
-          <div className="flex min  w-[500px] justify-end px-[70px] animate">
+          <div className="overflow-clip w-[400px] px-5 py-5 hidden md:flex min justify-end animate">
 
             {/* <motion.div whileHover={{ scale: 2 }}> */}
               <img
-                src={a}
+                src={b}
                 alt="profile-pic"
-                className=" w-[123px] h-[123px] px-5 py-5"
+                className="fixed rounded-lg  w-[200px] h-[300px] "
               />
             {/* </motion.div> */}
           </div>
         </div>
-        <div className="flex">
-          
-
-        </div>
+        
       </div>
     </div>
   );

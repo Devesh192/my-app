@@ -2,12 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-      <div className=' bg-teal-500 w-full overflow-hidden'>
-      footer
-      <h2>{new Date().toTimeString}</h2>
-          <br></br>
-          <br></br>
-          <br></br>
+    <div className='w-full bg-teal-700 bg-opacity-70 overflow-hidden'>
+      <div className=' align-baseline text-center '>
+        Copyright (c) 2023 - 24  | Devesh Kumar * All rights reserved.
+      </div>
+
       <br></br>
       </div>
   )
